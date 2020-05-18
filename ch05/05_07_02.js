@@ -1,5 +1,5 @@
 var fs = require('fs');
 
-fs.rename('oldname.png','newname.png',function(){
+fs.rename('test','test2',function(){
 	console.log( 'file renamed' );
 });

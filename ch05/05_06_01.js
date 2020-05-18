@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-fs.unlink('/tmp/hello',( err )=>{
+fs.unlink('/workspace/tem/hello',( err )=>{
 	if( err ) throw err;
-	console.log("successfully deleted /tmp/hello" );
+	console.log("successfully deleted /workspace/tem/hello" );
 });
